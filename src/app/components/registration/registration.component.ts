@@ -35,5 +35,7 @@ export class RegistrationComponent implements OnInit {
   register(): void {
     this._registrationService.register(this.userRegistrationViewModel);
     console.log('register');
+    console.log('completed successfully');
+    console.log('cant touch this bitches');
   }
 }

@@ -3,7 +3,7 @@ import { Observable } from "rxjs/Observable";
 import { HttpClient } from "@angular/common/http";
 import { IRegistrationInterface } from '../Interfaces/IRegistrationInterface';
 import { IUser } from '../Interfaces/IUser';
-import 'rxjs/add/operator/throw';
+import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/do';
 import { HttpErrorResponse } from '@angular/common/http/src/response';
